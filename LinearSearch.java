@@ -20,3 +20,6 @@ class LinearSearch {
             System.out.println("Element position is: " + index);
     }
 }
+
+
+// time complexity is O(n)
