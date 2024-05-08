@@ -19,14 +19,14 @@ class SelectionSort {
     public static void main(String args[]) {
         int a[] = { 1, 3, 5, 7, 9, 0, 8, 6, 4, 2 };
         int n = a.length;
-        System.out.println("Unsorted Array");
+        System.out.print("Unsorted Array: ");
         for (int i = 0; i < n; i++) {
-            System.out.println(a[i]);
+            System.out.print(a[i]+" ");
         }
         Sort(a, n);
-        System.out.println("Sorted Array");
+        System.out.print("\nSorted   Array: ");
         for (int i = 0; i < n; i++) {
-            System.out.println(a[i]);
+            System.out.print(a[i]+" ");
         }
 
     }
